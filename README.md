@@ -1,1 +1,1 @@
-# Mirissa-Snorkeling-Center
+# Mirissa-Snorkeling-Ocean-View
