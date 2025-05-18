@@ -2465,3 +2465,7 @@ section,
 .short-link :hover {
   color: blue;
 }
+
+.blue-waves-ocean {
+  margin-bottom: 30px;
+}
