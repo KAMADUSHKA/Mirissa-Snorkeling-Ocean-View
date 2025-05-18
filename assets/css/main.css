@@ -12,8 +12,8 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
+  --background-color: #151630; /* Background color for the entire website, including individual sections */
+  --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #116530; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -77,9 +77,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: rgba(172, 255, 47, 0.711);
   font-family: var(--heading-font);
 }
+
+.blog-details p {color: hsla(0, 0%, 0%, 0.807);}
+.blog-details li {color: gray;}
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -703,7 +706,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px 0;
+  padding: 120px 0 120px 0;
   text-align: center;
   position: relative;
 }
@@ -1252,7 +1255,7 @@ section,
   border-radius: 0;
   width: 20px;
   height: 4px;
-  background-color: color-mix(in srgb, var(--background-color), transparent 80%) !important;
+  background-color: color-mix(in srgb, white, transparent 80%) !important;
   opacity: 1;
 }
 
@@ -1352,8 +1355,8 @@ section,
 
 .recent-posts .post-item .post-date {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 5px;
+  bottom: 5px;
   background-color: var(--accent-color);
   color: var(--contrast-color);
   text-transform: uppercase;
@@ -1396,7 +1399,7 @@ section,
   font-weight: 600;
   line-height: 1;
   transition: 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, rgb(0, 0, 46), transparent 40%);
 }
 
 .recent-posts .post-item .readmore i {
@@ -1779,7 +1782,7 @@ section,
 }
 
 .blog-details .content blockquote p {
-  color: var(--default-color);
+  color: green;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
