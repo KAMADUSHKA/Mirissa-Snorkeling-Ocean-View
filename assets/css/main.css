@@ -1109,7 +1109,7 @@ section,
 
 .img-fluid {
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(1, 0, 0, 0.995); /* Adjust values for your desired effect */
+  box-shadow: 0 4px 10px rgba(1, 0, 0, .0995); /* Adjust values for your desired effect */
 }
 
 
